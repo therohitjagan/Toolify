@@ -25,9 +25,9 @@ This open-source project allows developers to contribute, improve features, and 
 
 ## 📱 Screenshots  
 
-| Home Screen | Calculator | Notes |  
+| Home Screen | Text to Speech | Password Generator |  
 |------------|-----------|-------|  
-| ![Home](https://via.placeholder.com/200) | ![Calculator](https://via.placeholder.com/200) | ![Notes](https://via.placeholder.com/200) |  
+| ![Home](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizvxEinPPUzJbMiC5CR6MfFKdvkedywZjwZDQouNg4JHI3foaZf-zOvdzzMoNDoxFYrMLBoxSkPvy9qrecKGZSqTQtUSPbn8Jf4X2AEwEn0r8adUWJXjHbNuKkQpmmQwF7Phez_LCW3Xzv6x-ig8S98ol-14Nkl4vIz1xIdqhgr4YUVXjxXdHwteQ60w8/w180-h400/preview_4.jpg) | ![Text to Speech](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj08E6p2Bn3oJTE9MW5qkMeOQNRwKYhcC18VDEXOLPiV8atH293CendeBr4oYgjlPTvt0XvNL4FwicvoReBc9KLxiHeGMIvDvsxYhbTilIxP6IZa40ovZcZ2XcFjWzaH7DtlI-e7Yv6zLxeCDNygOPPIXLhy9nsEmTrCNbDhd2n54JysQlPTB7HBGlSHPQ/w180-h400/preview_2.jpg) | ![Password Generator](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbzq7f5KX5yELiso8f9Kb1DF-emKdSEm5G3aAagd4zjLjcwg1AD4a8ibUIqOzC1Rjgaan-lZrwzjyZARqE_FPdjBEpagajOzkgg4ftnPXHJWRnklChdMaPh8QOwfDnGFelCxBg4F_oi4PmfmoAW1H9v4tQ2PGtXLOeLKsnS2wnPaNu48zvzqqZhyphenhyphenMLkeY/w180-h400/preview_3.jpg) |  
 
 ## 🛠 Tech Stack  
 
