@@ -33,8 +33,7 @@ This open-source project allows developers to contribute, improve features, and 
 
 - **Language:** Java  
 - **Development Tool:** Android Studio  
-- **UI Framework:** XML  
-- **Ad Integration:** Google AdMob (Banner & Interstitial Ads)  
+- **UI Framework:** XML
 
 ## 🔧 Setup & Installation  
 
