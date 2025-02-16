@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Mode Switch -->
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switchMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scientific Mode"
+        android:textSize="18sp"
+        android:textColor="@color/textColor"
+        android:padding="8dp"
+        android:layout_gravity="end" />
+
+    <!-- Display Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/glass_background"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:elevation="8dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/tvExpression"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:gravity="end"
+            android:textColor="@color/textColor"
+            android:maxLines="2" />
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="36sp"
+            android:gravity="end"
+            android:textColor="@color/accentColor"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
+    <!-- Scientific Buttons (Initially Hidden) -->
+    <GridLayout
+        android:id="@+id/gridScientific"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:padding="8dp"
+        android:visibility="gone">
+
+        <Button style="@style/CalculatorButton" android:text="sin" android:id="@+id/btnSin"/>
+        <Button style="@style/CalculatorButton" android:text="cos" android:id="@+id/btnCos"/>
+        <Button style="@style/CalculatorButton" android:text="tan" android:id="@+id/btnTan"/>
+        <Button style="@style/CalculatorButtonAccent" android:text="π" android:id="@+id/btnPi"/>
+
+        <Button style="@style/CalculatorButton" android:text="log" android:id="@+id/btnLog"/>
+        <Button style="@style/CalculatorButton" android:text="ln" android:id="@+id/btnLn"/>
+        <Button style="@style/CalculatorButton" android:text="√" android:id="@+id/btnSqrt"/>
+        <Button style="@style/CalculatorButtonAccent" android:text="^" android:id="@+id/btnPower"/>
+        <!--<Button
+            style="@style/CalculatorButtonAccent"
+            android:text="C"
+            android:id="@+id/btnClear1"/>
+        <Button android:id="@+id/btnDelete1" android:text="DEL" style="@style/CalculatorButtonAccent"/>
+-->
+    </GridLayout>
+
+    <!-- Standard Buttons -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:padding="8dp">
+
+        <Button style="@style/CalculatorButton" android:text="7" android:id="@+id/btn7"/>
+        <Button style="@style/CalculatorButton" android:text="8" android:id="@+id/btn8"/>
+        <Button style="@style/CalculatorButton" android:text="9" android:id="@+id/btn9"/>
+        <Button style="@style/CalculatorButtonAccent" android:text="÷" android:id="@+id/btnDivide"/>
+
+        <Button style="@style/CalculatorButton" android:text="4" android:id="@+id/btn4"/>
+        <Button style="@style/CalculatorButton" android:text="5" android:id="@+id/btn5"/>
+        <Button style="@style/CalculatorButton" android:text="6" android:id="@+id/btn6"/>
+        <Button style="@style/CalculatorButtonAccent" android:text="×" android:id="@+id/btnMultiply"/>
+
+        <Button style="@style/CalculatorButton" android:text="1" android:id="@+id/btn1"/>
+        <Button style="@style/CalculatorButton" android:text="2" android:id="@+id/btn2"/>
+        <Button style="@style/CalculatorButton" android:text="3" android:id="@+id/btn3"/>
+        <Button style="@style/CalculatorButtonAccent" android:text="−" android:id="@+id/btnSubtract"/>
+
+        <Button style="@style/CalculatorButton" android:text="0" android:id="@+id/btn0"/>
+        <Button style="@style/CalculatorButton" android:text="." android:id="@+id/btnDot"/>
+        <Button style="@style/CalculatorButtonPrimary" android:text="=" android:id="@+id/btnEquals"/>
+        <Button style="@style/CalculatorButtonAccent" android:text="+" android:id="@+id/btnAdd"/>
+        <Button
+            style="@style/CalculatorButtonAccent"
+            android:text="C"
+            android:id="@+id/btnClear"/>
+        <Button android:id="@+id/btnDelete" android:text="DEL" style="@style/CalculatorButtonAccent"/>
+
+
+
+    </GridLayout>
+
+
+</LinearLayout>

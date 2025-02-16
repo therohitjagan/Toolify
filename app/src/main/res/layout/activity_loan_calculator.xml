@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="#F1F1F1">
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loan_emi_calculator"
+        android:textSize="24sp"
+        android:textColor="@color/primary_dark"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- Loan Amount Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/loanAmountLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/loanAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Loan Amount"
+            android:inputType="numberDecimal"
+            android:textColor="#212121"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:background="@drawable/rounded_edittext"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Interest Rate Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/interestRateLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/interestRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Interest Rate (%)"
+            android:inputType="numberDecimal"
+            android:textColor="#212121"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:background="@drawable/rounded_edittext"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Loan Tenure Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/loanTenureLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/loanTenure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Loan Tenure (years)"
+            android:inputType="numberDecimal"
+            android:textColor="#212121"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:background="@drawable/rounded_edittext"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Calculate Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate EMI"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="@color/primary"
+        android:padding="12dp"
+        android:layout_marginBottom="20dp"
+        app:cornerRadius="8dp"/>
+
+    <!-- EMI Result Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/emiResultCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="0dp"
+        app:contentPadding="20dp"
+        android:backgroundTint="@color/surface_light">
+
+        <TextView
+            android:id="@+id/emiResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EMI: ₹0.00"
+            android:textSize="24sp"
+            android:textColor="#212121"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

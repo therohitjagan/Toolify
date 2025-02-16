@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#f7b731</color>
+    <color name="grey">#808080</color>
+
+<!--    Change UI colour from here-->
+    <color name="primary">#8578EA</color>
+    <color name="primary_dark">#6750A4</color>
+    <color name="primary_variant">#EADDFF</color>
+
+
+    <color name="secondary">#03DAC6</color>
+    <color name="secondary_variant">#018786</color>
+    <color name="background">#FFFFFF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="error">#B00020</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_secondary">#000000</color>
+    <color name="on_background">#000000</color>
+    <color name="on_surface">#000000</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="primary_container">#EADDFF</color>
+    <color name="on_primary_container">#21005E</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#008000</color>
+    <color name="orange">#FFA500</color>
+
+    <color name="backgroundColor">#1E1E1E</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="accentColor">#FFA726</color>
+    <color name="buttonBackground">#303030</color>
+    <color name="accentButtonBackground">#444444</color>
+    <color name="primaryButtonBackground">#FF9800</color>
+
+    <color name="lightBackground">#F3F4F6</color>
+    <color name="buttonAccent">#6200EE</color>
+    <color name="darkGray">#444444</color>
+        <!-- Overall App Background -->
+        <color name="appBackground">#F5F5F5</color>
+
+        <!-- Display Card and Text Colors -->
+        <color name="displayCard">#FFFFFF</color>
+        <color name="displayText">#212121</color>
+
+        <!-- Button Colors -->
+        <color name="button_background">#6200EE</color>  <!-- A rich purple -->
+        <color name="button_text">#FFFFFF</color>
+
+        <!-- Switch Text -->
+        <color name="switchText">#424242</color>
+
+
+
+    <!-- Primary colors -->
+        <color name="primary_color">#2B3A55</color>
+        <color name="primary_light">#56668C</color>
+
+        <!-- Secondary colors -->
+        <color name="secondary_color">#39A2AE</color>
+        <color name="secondary_light">#6BD4E0</color>
+
+        <!-- Accent color -->
+        <color name="accent_color">#FFD166</color>
+
+        <!-- Background colors -->
+        <color name="light_background">#F5F7FB</color>
+        <color name="dark_background">#1A1A1A</color>
+
+        <!-- Text colors -->
+        <color name="text_primary">#212121</color>
+        <color name="text_secondary">#757575</color>
+
+        <!-- Error color -->
+        <color name="error_color">#E57373</color>
+
+        <!-- Surface colors -->
+        <color name="surface_light">#FFFFFF</color>
+        <color name="surface_dark">#2D2D2D</color>
+
+    <color name="vibrantPrimary">#6200EE</color>
+    <color name="vibrantAccent">#03DAC5</color>
+
+</resources>

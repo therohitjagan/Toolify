@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Toolify</string>
+    <string name="search_hint">Search tools</string>
+    <string name="all_category">All</string>
+    <string name="welcome_message">Hello! Welcome to the Toolify. There are more than 100+ tools, and more coming soon.</string>
+    <string name="loan_emi_calculator">Loan EMI Calculator</string>
+    <string name="text_to_speech">Text to Speech</string>
+
+    <string-array name="barcode_data_types">
+        <item>Text</item>
+        <item>Link</item>
+        <item>Address</item>
+        <item>Contact</item>
+        <item>Email</item>
+    </string-array>
+    <string-array name="barcode_formats">
+        <item>QR Code</item>
+        <item>Code 128</item>
+        <item>Code 39</item>
+        <item>EAN-13</item>
+        <item>UPC-A</item>
+    </string-array>
+    <string-array name="length_units">
+        <item>Meters</item>
+        <item>Centimeters</item>
+        <item>Millimeters</item>
+        <item>Kilometers</item>
+        <item>Inches</item>
+        <item>Feet</item>
+        <item>Miles</item>
+        <item>Yards</item>
+        <item>Light Years</item>
+    </string-array>
+
+    <string name="test_again">Test Again</string>
+    <string name="testing">Testing..</string>
+    <string name="upload">Upload</string>
+    <string name="wait">wait</string>
+    <string name="start_test">Speed Test</string>
+    <string name="ping">Ping</string>
+    <string name="download">Download</string>
+    <string name="select_image">select image</string>
+    <string name="save">save</string>
+    <string name="share">share</string>
+
+    <string name="text_formatter">Text Formatter</string>
+    <string name="enter_text_here">Enter text here</string>
+
+</resources>

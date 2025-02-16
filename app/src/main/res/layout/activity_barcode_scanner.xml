@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ZXing's DecoratedBarcodeView provides camera preview and scanning overlay -->
+    <com.journeyapps.barcodescanner.DecoratedBarcodeView
+        android:id="@+id/barcode_scanner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Additional overlay controls -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:padding="16dp"
+        android:background="#80000000">
+
+        <FrameLayout
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="@drawable/circle_background"
+            android:layout_margin="5dp">
+        <ImageButton
+            android:id="@+id/btn_flash"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_flash_on"
+            android:scaleType="fitStart"
+            android:layout_gravity="center"
+            android:contentDescription="Toggle Flash"
+            app:tint="@color/black" />
+
+        </FrameLayout>
+
+        <!--<ImageButton
+            android:id="@+id/btn_switch_camera"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:scaleType="fitStart"
+            app:tint="@color/white"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_switch_camera"
+            android:contentDescription="Switch Camera" />-->
+
+        <FrameLayout
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="@drawable/circle_background"
+            android:layout_margin="5dp">
+        <ImageButton
+            android:id="@+id/btn_scan_gallery"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_gallery"
+            app:tint="@color/black"
+            android:scaleType="fitStart"
+            android:layout_gravity="center"
+            android:contentDescription="Scan from Gallery" />
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="@drawable/circle_background"
+            android:layout_margin="5dp">
+        <ImageButton
+            android:id="@+id/btn_save_scanned"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_save"
+            android:scaleType="fitStart"
+            app:tint="@color/black"
+            android:contentDescription="Save Scanned Barcode as Image"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

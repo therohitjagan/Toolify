@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Length Converter"
+        android:textSize="24sp"
+        android:textColor="@color/primary_dark"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- Input Length -->
+    <EditText
+        android:id="@+id/inputLength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Length"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_edittext"
+        android:textColor="#6200EE"
+        android:padding="16dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- From Unit Spinner -->
+    <Spinner
+        android:id="@+id/unitFromSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_spinner"/>
+
+    <!-- To Unit Spinner -->
+    <Spinner
+        android:id="@+id/unitToSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_spinner"/>
+
+    <!-- Convert Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/convertButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_button2"
+        android:padding="14dp"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- Conversion Result -->
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Converted Length: "
+        android:textSize="20sp"
+        android:textColor="#6200EE"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardNote"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Display tags and stripped note content -->
+        <TextView
+            android:id="@+id/tvTags"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tags"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/tvContent"
+            android:layout_below="@id/tvTags"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Note content preview..."
+            android:textColor="@android:color/black"
+            android:layout_marginTop="8dp" />
+
+        <!-- Delete button (small icon at the top-right corner) -->
+        <ImageButton
+            android:id="@+id/btnDeleteNote"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_delete"
+            android:contentDescription="Delete Note" />
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>
