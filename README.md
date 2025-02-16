@@ -65,7 +65,7 @@ We welcome contributions to improve **Toolify**!
 
 ## 🛡️ License
 
-This project is licensed under the **MIT License** – Read Here.
+This project is licensed under the **MIT License** – [Read Here](https://github.com/therohitjagan/Toolify/blob/master/LICENSE).
 
 ## 📬 Contact
 
