@@ -39,7 +39,7 @@ This open-source project allows developers to contribute, improve features, and 
 
 1. **Clone the Repository**  
    ```sh
-   git clone https://github.com/yourusername/Toolify.git
+   git clone https://github.com/therohitjagan/Toolify.git
    cd Toolify
 2.    **Open in Android Studio**
     
